@@ -6,15 +6,8 @@
 Welcome to Automate Log Processing's documentation!
 ===================================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+*Automate Log Processing* is a honours research project 
+conducted by Raj Silari at the Queensland University 
+of Techology. This project seeks to investigate whether 
+performance degrading anomalies can be identified by 
+combining hardware monitoring data with system logs. 
