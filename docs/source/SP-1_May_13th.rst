@@ -1,14 +1,11 @@
 May 13th 2022 - SP-1 Log Parsing 
 ===================================================================================
-
-*Research Goal* 
-
+| *Research Goal* 
 Fork the WS-DREAM repository and begin understanding the log transformation 
 process (parsing raw logs). This is part of the broader goal to empirically 
 test existing anomaly detection models.
 
-*Outcomes*
-
+| *Outcomes*
 The Python script for the Drain log parser was examined this week. This parser was selected after reviewing Zhu et 
 al.’s (2019) research on benchmarking different log parsing tools. In this study, Drain exhibited the highest accuracy 
 with minimal variation when tested on various logs. Drain uses a fixed-depth tree, where the internal nodes of the 
@@ -59,8 +56,7 @@ Once all logs have been evaluated, the outputresult method is called to update t
 and log ID’s. This dataframe is saved with the _structured.csv label. A separate dataframe that counts the occurrences
 of each event template is also created. This is saved with the _templates.csv label. 
 
-*References*
-
+| *References*
 He, P., Zhu, J., Zheng, Z., Lyu, M. R. (2017, June 25-30). Drain: An Online Log Parsing Approach with Fixed Depth Tree
 [Conference paper]. 2017 IEEE International Conference on Web Services (ICWS), Honolulu, HI, USA. 
 https://doi.org/10.1109/ICWS.2017.13
