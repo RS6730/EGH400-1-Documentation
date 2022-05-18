@@ -17,5 +17,6 @@ combining hardware monitoring data with system logs.
    This project is under active development. 
 
 .. toctree:: 
-
-   Progress_May13_2022 
+   
+   Project_Overview
+   SP-1_May_13th 
