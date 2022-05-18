@@ -6,9 +6,9 @@
 Welcome to Automate Log Processing's documentation!
 ===================================================
 
-*Automate Log Processing* is a honours research project 
+*Automate Log Processing* is a research project 
 conducted by Raj Silari at the Queensland University 
-of Techology, under the supervision of Dr. Gowri Ramachandran. 
+of Techology (QUT), under the supervision of Dr. Gowri Ramachandran. 
 This project seeks to investigate whether 
 performance degrading anomalies can be identified by 
 combining hardware monitoring data with system logs. 
