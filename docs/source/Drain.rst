@@ -6,7 +6,7 @@ this subproject is to understand the log transformation process (parsing raw log
 This is part of the broader goal to empirically test existing anomaly detection 
 models. 
 
-| *Drain application.* 
+| *Drain application* 
 
 Note: the code presented in this page is authored by the LogPAI team. As part of this 
 research project, additional scripts were created to explore and understand the original 
@@ -28,10 +28,10 @@ correct log file (which must be in the input_dir):
 
     # Author: LogPAI team. 
 
-    input_dir  = <directory to log set>. 
-    output_dir = <results directory>
-    log_file   = <log file name>
-    log_format = <format of the log set>
+    input_dir  = '<directory to log set>' 
+    output_dir = '<results directory>'
+    log_file   = '<log file name>'
+    log_format = '<format of the log set>'
 
 To test Drain on linux, these variables can be left as their default values.
 Furthermore, when testing different log files, ensure the log_format is updated to suit 
@@ -52,6 +52,9 @@ Linux, this is:
 Regex patterns for each log can be found in the benchmark directory. Additional patterns 
 can be added, based on domain specific knowledge of the logs. 
 
+The st (similarity threshold) and depth (fixed-tree depth) can be left at their default 
+values. 
+
 To run the log parser, simply run the demo script. 
 
 .. code-block:: shell 
@@ -62,7 +65,7 @@ The parsing progress will be displayed on the command prompt, and the results di
 <Log_set>.log_structured.csv file contains the entire parsing result set. The 
 <Log_set>.log_templates.csv file contains information on event templates and their occurences. 
 
-| *Algorithm and Code Explanation* 
+| *Drain - Algorithm and Code Explanation* 
 
 Drain uses a fixed-depth tree, where the internal nodes of the tree contain parsing rules, and the final leaf nodes 
 contain a list of candidate log clusters (He et al., 2017). 
