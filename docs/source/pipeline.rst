@@ -42,7 +42,7 @@ The pipeline acts as an interface between log parsers and their outputs. The cor
 script begins by reading the command line inputs to activate trace and obtain the 
 log files for use. 
 
-.. code-block:: python
+.. code-block:: python3
     print("Starting...")
     trace = False 
     trace_file = None
@@ -64,7 +64,7 @@ The generateData function evaluates the log file names that have been passed in,
 checks to see if they exist in the /logs directory, and returns a list of valid 
 log files (wit the '.logs' extention appended) to use. 
 
-.. code-block:: python 
+.. code-block:: python3
     def generateData(inputs): 
         '''
         Check if the log-file exists. If yes, add file extention and append to list. 
@@ -82,7 +82,7 @@ log files (wit the '.logs' extention appended) to use.
 
 After this log dataset is created, the constants for log parsing are declared. 
 
-.. code-block:: python 
+.. code-block:: python3
     # Constants for log parsing.
     input_dir  = 'logs/'
     output_dir = 'results/'
@@ -94,7 +94,7 @@ This is followed by calling the runParser function to run the log parsers. The f
 example runs all the LogParsers - currently, these lines can be commented/uncommented to 
 specify which parser to run. 
 
-.. code-block:: python 
+.. code-block:: python3 
     # Run log parsers. 
     # -- online 
     runParser(log_files, 'drain', input_dir, output_dir, log_format, regex, trace, trace_file)
@@ -108,7 +108,7 @@ specifies which log parser to create. The returned LogParser object will be used
 parse the current log file. A new LogParser is created for each log file. This is by design, 
 as re-using a parser on a new dataset mixes the data from seperate log files, which is undesireable. 
 
-.. code-block:: python 
+.. code-block:: python3 
     def runParser(log_files, type, input_dir, output_dir, log_format, rgx, trace, trace_file):
     '''
     Run each log parser. Print the outputs to the trace file. 
@@ -131,7 +131,7 @@ The parserSetup function takes the input and output directories, log format and
 regex as parameters, and creates the required log parser based on the type string. 
 This method acts as a 'factory' for generating the requested log parser. 
 
-.. code-block:: python 
+.. code-block:: python3 
     def parserSetup(option, input, output, format, rgx):
         '''
         Setup function for generating a log parser object. 

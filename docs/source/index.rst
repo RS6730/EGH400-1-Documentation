@@ -22,9 +22,8 @@ combining hardware monitoring data with system logs.
    Project_Overview
    Drain.rst 
    Spell.rst 
-   LenMa.rst 
-   pipeline.rst 
-   IPLoM.rst 
-   AEL.rst 
+   LenMa.rst
+   pipeline.rst
+   AEL.rst
 
 
