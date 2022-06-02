@@ -24,5 +24,7 @@ combining hardware monitoring data with system logs.
    Spell.rst 
    LenMa.rst 
    pipeline.rst 
+   IPLoM.rst 
+   AEL.rst 
 
 
