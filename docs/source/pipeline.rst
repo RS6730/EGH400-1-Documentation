@@ -11,7 +11,7 @@ for identifying anomalies.
    This script is under active development. Currently, the script only runs 
    parsers on a batch of provided log files. 
 
-| *pipeline application.* 
+| *Pipeline script application.* 
 
 The [current] pipeline script (main.py) is used to run log parsers on a range of 
 different log datasets. This script provides a single location to test different 
