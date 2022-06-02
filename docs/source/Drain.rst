@@ -21,7 +21,7 @@ found in the original WS-DREAM fork) This directory includes scripts for running
 This seperate directory is created to enable extension/modification from the original 
 demo scripts written by the LogPAI team, found in the demo directory. 
 
-To run drain, ensure the input_dir and output_dirs are set, and the code points to the 
+To run drain, ensure the input_dir and output_dir is set, and the code points to the 
 correct log file (which must be in the input_dir): 
 
 .. code-block:: python 
