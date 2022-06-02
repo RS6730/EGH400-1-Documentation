@@ -1,5 +1,7 @@
 May 27th 2022 - pipeline (log parsing)
 ===================================================================================
+Note: this documentation was written and committed on June 2nd 2022. 
+
 | *Research Goal* 
 A script was used to form a full end-to-end pipeline of the log transformation 
 process. The purpose of this script is to collects raw logs, parse them using
