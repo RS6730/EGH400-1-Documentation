@@ -8,7 +8,7 @@ this subproject is to understand the log transformation process (parsing raw log
 This is part of the broader goal to empirically test existing anomaly detection 
 models. 
 
-| *LenMa application *
+| *LenMa application*
 
 Note: the code presented in this page is authored by the LogPAI team. As part of this 
 research project, additional scripts were created to explore and understand the original 

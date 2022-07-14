@@ -25,5 +25,6 @@ combining hardware monitoring data with system logs.
    LenMa.rst
    pipeline.rst
    AEL.rst
+   Dataloader.rst 
 
 
