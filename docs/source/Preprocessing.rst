@@ -18,12 +18,12 @@ DeepLog uses the Vecotorizer class to transform event ID strings
 into numerical representations ("dimensionality reduction"?). 
 A sample is shown below: 
 
-.. code-block:: python
-        SessionId                                   EventSequence
-    0          0    [E5, E22, E5, E5, E11, E9, E11, E11, E9, E9]
 
-        SessionId                   EventSequence
-    0          0    [9, 0, 9, 9, 6, 5, 6, 6, 5, 5]
+    SessionId                   EventSequence
+0          0    [E5, E22, E5, E5, E11, E9, E11, E11, E9, E9]
+
+    SessionId                   EventSequence
+0          0    [9, 0, 9, 9, 6, 5, 6, 6, 5, 5]
 
 The Vectorizer class has two functions: fit_transform (used for training data)
 and transform (used for test data). The code for this class is shown below: 
