@@ -1,6 +1,5 @@
 July 15th 2022 - Loglizer DataLoader 
-===================================================================================
-Note: this documentation was written and committed on June 2nd 2022. 
+=================================================================================== 
 
 | *Research Goal* 
 The loglizer (anomaly detection) repository contains demos of various anomaly 
