@@ -26,5 +26,6 @@ combining hardware monitoring data with system logs.
    pipeline.rst
    AEL.rst
    Dataloader.rst 
+   Preprocessing.rst 
 
 
