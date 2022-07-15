@@ -87,7 +87,7 @@ As observed, generating the training and test data
 holds all essential values required to generate the training and test data. This
 dataframe has the following format: 
 
-.. code-block:: shell  
+.. code-block:: python
                         BlockId                                      EventSequence  Label
     0  blk_-1608999687919862906  [E5, E22, E5, E5, E11, E11, E9, E9, E11, E9, E...      0
     1   blk_7503483334202473044  [E5, E5, E22, E5, E11, E9, E11, E9, E11, E9, E...      0
