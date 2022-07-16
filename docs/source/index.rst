@@ -27,5 +27,5 @@ combining hardware monitoring data with system logs.
    AEL.rst
    Dataloader.rst 
    Preprocessing.rst 
-
+   DeepLog.rst
 
