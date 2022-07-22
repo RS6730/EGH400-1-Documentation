@@ -29,4 +29,5 @@ combining hardware monitoring data with system logs.
    Preprocessing.rst 
    DeepLog.rst
    Preprocessing_ML.rst
+   SVM.rst
 
