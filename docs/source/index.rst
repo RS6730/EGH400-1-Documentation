@@ -28,6 +28,6 @@ combining hardware monitoring data with system logs.
    Dataloader.rst 
    Preprocessing.rst 
    DeepLog.rst
-   Preprocessing_ML.rst
+   preprocessing_ML.rst
    SVM.rst
 
