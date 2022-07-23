@@ -36,6 +36,8 @@ thereby generating a numerical representation for the event IDs.
 
 .. code-block:: python 
 
+    # Authors: LogPAI Team
+
     def fit_transform(self, X_seq, term_weighting=None, normalization=None, oov=False, min_count=1)
         # X_seq is the training data. For HDFS, it is a matrix of event
 
